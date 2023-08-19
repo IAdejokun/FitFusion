@@ -112,3 +112,20 @@ nav ul li a{
     font-size: 40px;
     padding: 2px;
 }
+
+footer{
+    background-color: rgba(212, 216, 255, 1);
+}
+
+footer ul {
+    list-style-type: none;
+}
+
+footer ul li{
+    padding-top:10px;
+}
+
+footer ul li a{
+    text-decoration: none;
+    color: #000;
+}
