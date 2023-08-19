@@ -107,3 +107,8 @@ nav ul li a{
 #counter{
     font-size: 40px;
 }
+
+.percentage{
+    font-size: 40px;
+    padding: 2px;
+}
