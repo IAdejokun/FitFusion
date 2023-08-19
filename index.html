@@ -116,13 +116,11 @@
                 <h3>Methodology:</h3>
                 <p>Patient Selection: A diverse group of patients with documented heart disease were selected...</p>
                 
-                <div class="successRateOfResearch">
+                <div class="successRateOfResearch" data-aos="fade-right" data-aos-duration="2000">
                     <h3>Success Rate Of Research</h3>
-                    <div class="w-50 horizontalRule" data-aos="fade-right" data-aos-duration="2000">
+                    <div class="w-50 horizontalRule">
                     </div>
-                    <div id="counter">
-                        <!-- counts --> 
-                    </div>
+                    <span id="counter" data-val="100">000</span><span class="percentage">%</span>
                     
                 </div>
             </div>
@@ -143,17 +141,7 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>
         AOS.init();
-
-        let counts = setInterval(updated);
-    let upto = 0;
-    function updated() {
-        let count = document.getElementById("counter");
-        count.innerHTML = ++upto;
-        if (upto === 100) {
-            clearInterval(counts);
-        }
-    }
-      </script>
-
+</script>
+    <script src="main.js"></script>
 </body>
 </html>

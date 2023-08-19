@@ -108,6 +108,11 @@ nav ul li a{
     font-size: 40px;
 }
 
+.percentage{
+    font-size: 40px;
+    padding: 2px;
+}
+
 .checking {
   padding: 0px ;
 }
