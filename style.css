@@ -128,6 +128,7 @@ footer ul li{
 footer ul li a{
     text-decoration: none;
     color: #000;
+}
 .checking {
   padding: 0px ;
 }
@@ -225,5 +226,4 @@ footer ul li a{
 .lol{
   display: flex;
   justify-content: end;
-}
 }
