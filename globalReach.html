@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fit Fusion</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+<body>
+    <header>
+
+            <nav class="navbar container ">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#"><img src="./assets/logo.png" class="logoImg" alt="fitfusionImg"><span class="logo">FitFusion</span></a>
+                  
+                  <ul class="d-lg-flex d-none">
+                    <li class="p-3"><a href="#" class="hover-underline-animation" title="Products & Services">Explore</a></li>
+                    <li class="p-3"><a href="globalReach.html" class="hover-underline-animation" title="Export Countries">Global Reach</a></li>
+                    <li class="p-3"><a href="#" class="hover-underline-animation" title="Organization Chart">Company</a></li>
+                    <li class="p-3"><a href="connect.html" class="hover-underline-animation" title="Feedback Form">Connect</a></li>
+                    <li class="p-3"><a href="#" class="hover-underline-animation" title="Marketing Video">Media</a></li>
+                    <li class="p-3"><a href="social.html" class="hover-underline-animation" title="Social Media Functions">Social</a></li>
+                  </ul>
+
+                  <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                    <div class="offcanvas-header">
+                      <h5 class="offcanvas-title" id="offcanvasNavbarLabel"><img src="./assets/logo.png" class="logoImg" alt="fitfusionImg"><span class="logo">FitFusion</span></h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                      <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                        <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Explore</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Global Reach</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Company</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Connect</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Media</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Social</a>
+                          </li>
+                          </ul>
+                        </li>
+                      </ul>
+                      <form class="d-flex mt-3" role="search">
+                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                      </form>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </header>
+
+        <main>
+            <h1 class="heading">Highest drug users in the world</h1>
+            <div class="wrapper">
+
+                <div class="pie-wrap">
+                    
+
+                        <div class="light-yellow entry">
+                            <p>25%</p>
+                            <p class="entry-value">Nigeria</p>
+                        </div>
+                        
+                        <div class="sky-blue entry">
+                            <p>25%</p>
+                            <p class="entry-value">America</p>
+                        </div>
+                        
+                        <div class="pink entry">
+                            <p>12.5%</p>
+                            <p class="entry-value">Hungary </p>
+                        </div>
+                        
+                        <div class="purple entry">
+                            <p> 12.5%</p>
+                            <p class="entry-value">France</p>
+                        </div>
+                        
+                        <div class="green entry">
+                            <p> 12.5%</p>
+                            <p class="entry-value">Russia</p>
+                        </div>
+                        
+                        <div class="wheat entry">
+                            <p> 12.5%</p>
+                            <p class="entry-value">UK</p>
+                        </div>
+                        
+                        
+                </div>
+
+                <div class="key-wrap">
+                    <input type="radio" id="rice" name="values" class="rice-key"/>
+                    <label for="rice" class="rice-label">Nigeria</label>
+
+                    <input type="radio" name="values" id="beans" class="beans-key"/>
+                    <label for="beans" class="beans-label"> America</label>
+
+                    <input type="radio" name="values" id="plantain" class="plantain-key"/>
+                    <label for="plantain" class="plantain-label"> Hungary</label>
+
+                    <input type="radio" name="values" id="potato" class="potato-key"/>
+                    <label for="potato" class="potato-label"> France</label>
+
+                    <input type="radio" name="values" id="yam" class="yam-key"/>
+                    <label for="yam" class="yam-label"> Russia</label>
+
+                    <input type="radio" name="values" id="pasta" class="pasta-key"/>
+                    <label for="pasta" class="pasta-label">UK</label>
+
+                    <p class="rice-text text">Nigeria uses up 25%</p>
+                    <p class="beans-text text">America uses up 12.5% </p>
+                    <p class="plantain-text text"> Hungary uses up 12.5% </p>
+                    <p class="potato-text text"> France uses up 12.5% </p>
+                    <p class="yam-text text"> Russia uses up 12.5% </p>
+                    <p class="pasta-text text"> UK uses up 25% </p>
+                </div>
+
+                
+
+            </div>
+
+            
+        </main>
+
+        <footer class="p-5">
+            <h3 class="text-center">Contact Us</h3>
+            <p class="text-center">If you have any questions or inquiries, feel free to reach out to us.</p>
+            <a href="mailto:info@example.com">info@example.com</a>
+          <div class="container d-flex mt-4 mb-4 justify-content-between">
+            <div class="p-3">
+            <ul>
+                <li class="fw-bold">Fit Fusion</li>
+                <li><a href="#">Explore</a></li>
+                <li><a href="#">Global Reach</a></li>
+                <li><a href="#">Company</a></li>
+            </ul>
+           </div>
+    
+           <div class="p-3">
+            <ul>
+                <li class="fw-bold">Solutions</li>
+                <li><a href="#">Integration</a></li>
+                <li><a href="#">Internal Comms</a></li>
+                <li><a href="#">Human Resources</a></li>
+            </ul>
+           </div>
+    
+           <div class="p-3">
+            <ul>
+                <li class="fw-bold">Legal</li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+           </div>
+    
+           <div class="p-3">
+            <ul>
+                <li class="fw-bold">Follow Us</li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">X (F.K.A Twitter)</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+           </div>
+    
+           <div class="p-3">
+            <ul>
+                <li class="fw-bold">Contact Us</li>
+                <li><a href="#">+234123456789</a></li>
+                <li><a href="#">123, Lagos Street, Ikeja, Lagos, Nigeria. </a></li>
+            </ul>
+           </div>
+        </div>
+           <h5 class="d-block text-center mt-5 fw-light">&copy; FitFusion, All rights reserved</h5>
+        </footer>
+
+
+
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    </body>
+</body>
+</html>
