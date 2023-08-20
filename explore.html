@@ -6,6 +6,11 @@
     <title>Explore</title>
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <style>
+     body{
+        overflow-x: hidden;
+     }
+    </style>
 </head>
 <body>
     <main class="container-fluid">
@@ -17,11 +22,11 @@
                   
                   <ul class="d-lg-flex d-none">
                     <li class="p-3"><a href="explore.html" class="hover-underline-animation" title="Products & Services">Explore</a></li>
-                    <li class="p-3"><a href="#" class="hover-underline-animation" title="Export Countries">Global Reach</a></li>
-                    <li class="p-3"><a href="#" class="hover-underline-animation" title="Organization Chart">Company</a></li>
+                    <li class="p-3"><a href="globalReach.html" class="hover-underline-animation" title="Export Countries">Global Reach</a></li>
+                    <li class="p-3"><a href="company.html" class="hover-underline-animation" title="Organization Chart">Company</a></li>
                     <li class="p-3"><a href="connect.html" class="hover-underline-animation" title="Feedback Form">Connect</a></li>
-                    <li class="p-3"><a href="#" class="hover-underline-animation" title="Marketing Video">Media</a></li>
-                    <li class="p-3"><a href="#" class="hover-underline-animation" title="Social Media Functions">Social</a></li>
+                    <li class="p-3"><a href="media.html" class="hover-underline-animation" title="Marketing Video">Media</a></li>
+                    <li class="p-3"><a href="social.html" class="hover-underline-animation" title="Social Media Functions">Social</a></li>
                   </ul>
     
                   <button class="navbar-toggler d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" aria-label="Toggle navigation">
@@ -35,30 +40,26 @@
                     <div class="offcanvas-body">
                       <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                         <li class="nav-item">
-                          <a class="nav-link active" aria-current="page" href="#">Explore</a>
+                          <a class="nav-link active" aria-current="page" href="explore.html">Explore</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Global Reach</a>
+                            <a class="nav-link active" aria-current="page" href="globalReach.html">Global Reach</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Company</a>
+                            <a class="nav-link active" aria-current="page" href="company.html">Company</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Connect</a>
+                            <a class="nav-link active" aria-current="page" href="connect.html">Connect</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Media</a>
+                            <a class="nav-link active" aria-current="page" href="media.html">Media</a>
                           </li>
                           <li class="nav-item">
-                            <a class="nav-link active" aria-current="page" href="#">Social</a>
+                            <a class="nav-link active" aria-current="page" href="social.html">Social</a>
                           </li>
                           </ul>
                         </li>
                       </ul>
-                      <form class="d-flex mt-3" role="search">
-                        <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-                        <button class="btn btn-outline-success" type="submit">Search</button>
-                      </form>
                     </div>
                   </div>
                 </div>
@@ -67,95 +68,134 @@
     </main>
 
 
-        <section class="row bg-success text-white">
+        <section class="row bg-primary text-white">
             <h1 class="text-center p-5">Products & Services</h1>
         </section>
 
         <section class="productAndService">
-            <div class="cardContainer pb-5">
-                <div class="card">
+            <div class="cardContainerOne pb-5">
+                <div class="card cardOne">
                     <img src="./assets/melatonin.jpg" alt="scienceImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Scientific Excellence</h2>
-                    
+                    <h6 class="p-2">Natrol Melatonin Time Release Extra Strength 5mg 100 Tablets</h6>
+                    <p class="fw-bold ms-2">&#8358; 2,500</p>
                 </div>
-                <div class="card">
+                <div class="card cardOne">
                     <img src="./assets/heartDrug.jpg" alt="healthImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Patient-Centric</h2>
+                    <h6 class="p-3">Comfort Capsule For Cardiac Function Heart Drugs</h6>
+                    <p class="fw-bold ms-3">&#8358; 3,000</p>
                 </div>
-                <div class="card">
+                <div class="card cardOne">
                     <img src="./assets/alkalineWater.jpg" alt="ethicsImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Ethical Integrity</h2>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/alkalineWater.jpg" alt="ethicsImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Ethical Integrity</h2>
+                    <h6 class="p-3">Lasena Alkaline Water</h6>
+                    <p class="fw-bold ms-3">&#8358; 4,000</p>
                 </div>
             </div>
 
-            <div class="cardContainer pb-5">
-                <div class="card">
+            <div class="cardContainerOne pb-5">
+                <div class="card cardOne">
                     <img src="./assets/melatonin.jpg" alt="scienceImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Scientific Excellence</h2>
-                    
+                    <h6 class="p-2">Natrol Melatonin Time Release Extra Strength 5mg 100 Tablets</h6>
+                    <p class="fw-bold ms-2">&#8358; 2,500</p> 
                 </div>
-                <div class="card">
+                <div class="card cardOne">
                     <img src="./assets/heartDrug.jpg" alt="healthImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Patient-Centric</h2>
+                    <h6 class="p-3">Comfort Capsule For Cardiac Function Heart Drugs</h6>
+                    <p class="fw-bold ms-3">&#8358; 2,500</p>
                 </div>
-                <div class="card">
+                <div class="card cardOne">
                     <img src="./assets/alkalineWater.jpg" alt="ethicsImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Ethical Integrity</h2>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/alkalineWater.jpg" alt="ethicsImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Ethical Integrity</h2>
+                    <h6 class="p-3">Lasena Alkaline Water</h6>
+                    <p class="fw-bold ms-3">&#8358; 2,500</p>
                 </div>
             </div>
 
-            <div class="cardContainer pb-5">
-                <div class="card">
+            <div class="cardContainerOne pb-5">
+                <div class="card cardOne">
                     <img src="./assets/melatonin.jpg" alt="scienceImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Scientific Excellence</h2>
-                    
+                    <h6 class="p-2">Natrol Melatonin Time Release Extra Strength 5mg 100 Tablets</h6>
+                    <p class="fw-bold ms-2">&#8358; 2,500</p>
                 </div>
-                <div class="card">
+                <div class="card cardOne">
                     <img src="./assets/heartDrug.jpg" alt="healthImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Patient-Centric</h2>
+                    <h6 class="p-3">Comfort Capsule For Cardiac Function Heart Drugs</h6>
+                    <p class="fw-bold ms-3">&#8358; 2,500</p>
                 </div>
-                <div class="card">
+                <div class="card cardOne">
                     <img src="./assets/alkalineWater.jpg" alt="ethicsImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Ethical Integrity</h2>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/alkalineWater.jpg" alt="ethicsImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Ethical Integrity</h2>
+                    <h6 class="p-3">Lasena Alkaline Water</h6>
+                    <p class="fw-bold ms-3">&#8358; 2,500</p>
                 </div>
             </div>
 
-            <div class="cardContainer pb-5">
-                <div class="card">
+            <div class="cardContainerOne pb-5">
+                <div class="card cardOne">
                     <img src="./assets/melatonin.jpg" alt="scienceImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Scientific Excellence</h2>
-                    
+                    <h6 class="p-2">Natrol Melatonin Time Release Extra Strength 5mg 100 Tablets</h6>
+                    <p class="fw-bold ms-2">&#8358; 2,500</p>
                 </div>
-                <div class="card">
+                <div class="card cardOne">
                     <img src="./assets/heartDrug.jpg" alt="healthImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Patient-Centric</h2>
+                    <h6 class="p-3">Comfort Capsule For Cardiac Function Heart Drugs</h6>
+                    <p class="fw-bold ms-3">&#8358; 2,500</p>
                 </div>
-                <div class="card">
+                <div class="card cardOne">
                     <img src="./assets/alkalineWater.jpg" alt="ethicsImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Ethical Integrity</h2>
-                </div>
-
-                <div class="card">
-                    <img src="./assets/alkalineWater.jpg" alt="ethicsImg" class="card-img-top w-25 m-auto">
-                    <h2 class="p-3">Ethical Integrity</h2>
+                    <h6 class="p-3">Lasena Alkaline Water</h6>
+                    <p class="fw-bold ms-3">&#8358; 2,500</p>
                 </div>
             </div>
         </section>
+        <footer class="p-5">
+            <h3 class="text-center">Contact Us</h3>
+            <p class="text-center">If you have any questions or inquiries, feel free to reach out to us.</p>
+            <a href="mailto:info@example.com">info@example.com</a>
+          <div class="container d-flex mt-4 mb-4 justify-content-between">
+            <div class="p-3">
+            <ul>
+                <li class="fw-bold">Fit Fusion</li>
+                <li><a href="explore.html">Explore</a></li>
+                <li><a href="globalReach.html">Global Reach</a></li>
+                <li><a href="company.html">Company</a></li>
+            </ul>
+           </div>
+    
+           <div class="p-3">
+            <ul>
+                <li class="fw-bold">Solutions</li>
+                <li><a href="#">Integration</a></li>
+                <li><a href="#">Internal Comms</a></li>
+                <li><a href="#">Human Resources</a></li>
+            </ul>
+           </div>
+    
+           <div class="p-3">
+            <ul>
+                <li class="fw-bold">Legal</li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Terms of Use</a></li>
+            </ul>
+           </div>
+    
+           <div class="p-3">
+            <ul>
+                <li class="fw-bold">Follow Us</li>
+                <li><a href="#">Instagram</a></li>
+                <li><a href="#">X (F.K.A Twitter)</a></li>
+                <li><a href="#">Facebook</a></li>
+            </ul>
+           </div>
+    
+           <div class="p-3">
+            <ul>
+                <li class="fw-bold">Contact Us</li>
+                <li><a href="#">+234123456789</a></li>
+                <li><a href="#">123, Lagos Street, Ikeja, Lagos, Nigeria. </a></li>
+            </ul>
+           </div>
+        </div>
+           <h5 class="d-block text-center mt-5 fw-light">&copy; FitFusion, All rights reserved</h5>
+        </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
 </body>
 </html>
